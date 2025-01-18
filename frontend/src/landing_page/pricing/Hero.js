@@ -10,7 +10,7 @@ function Hero() {
         </h3>
       </div>
       <div className="row p-5 mt-5 border-bottom text-center">
-        <div className="col-4 p-5">
+        <div className="col-lg-4 col-sm-12 p-5">
           <img
             src="media/images/pricingEquity.svg"
             alt="Free"
@@ -22,7 +22,7 @@ function Hero() {
             0 brokerage.
           </p>
         </div>
-        <div className="col-4 p-5">
+        <div className="col-lg-4 col-sm-12 p-5">
           <img
             src="media/images/intradayTrades.svg"
             alt="Free"
@@ -35,7 +35,7 @@ function Hero() {
             ₹20 on all option trades.
           </p>
         </div>
-        <div className="col-4 p-5">
+        <div className="col-lg-4 col-sm-12 p-5">
           <img
             src="media/images/pricingEquity.svg"
             alt="Free"

@@ -7,7 +7,7 @@ function CreateTicket() {
         <h1 className="fs-2 text-muted">
           To create a ticket, select a relevant topic
         </h1>
-        <div className="col-4 p-5 mb-2 mt-2 ">
+        <div className="col-lg-4 col-sm-12 p-5 mb-2 mt-2 ">
           <h4 className="">
             <i class="fa fa-plus-circle" aria-hidden="true"></i> Account Opening
           </h4>
@@ -35,7 +35,7 @@ function CreateTicket() {
             Non Resident Indian (NRI)
           </a>
         </div>
-        <div className="col-4 p-5 mb-2 mt-2">
+        <div className="col-lg-4 col-sm-12 p-5 mb-2 mt-2">
           <h4 className="">
             <i class="fa fa-user" aria-hidden="true"></i> Your Zerodha Account
           </h4>
@@ -63,7 +63,7 @@ function CreateTicket() {
             Transfer and conversion of shares
           </a>
         </div>
-        <div className="col-4 p-5 mb-2 mt-2">
+        <div className="col-lg-4 col-sm-12 p-5 mb-2 mt-2">
           <h4 className="">
             <i class="fa fa-bar-chart" aria-hidden="true"></i> Trading and
             Markets
@@ -92,7 +92,7 @@ function CreateTicket() {
             Kite features
           </a>
         </div>
-        <div className="col-4 p-5 mb-2 mt-2">
+        <div className="col-lg-4 col-sm-12 p-5 mb-2 mt-2">
           <h4 className="">
             <i class="fa fa-credit-card" aria-hidden="true"></i> Funds
           </h4>
@@ -113,7 +113,7 @@ function CreateTicket() {
           </a>
           <br></br>
         </div>
-        <div className="col-4 p-5 mb-2 mt-2">
+        <div className="col-lg-4 col-sm-12 p-5 mb-2 mt-2">
           <h4 className="">
           <i class="fa fa-american-sign-language-interpreting" aria-hidden="true"></i> Console
           </h4>
@@ -141,7 +141,7 @@ function CreateTicket() {
             Referral program
           </a>
         </div>
-        <div className="col-4 p-5 mb-2 mt-2">
+        <div className="col-lg-4 col-sm-12 p-5 mb-2 mt-2">
           <h4 className="">
             <i class="fa fa-money" aria-hidden="true"></i> Trading and Coin
           </h4>

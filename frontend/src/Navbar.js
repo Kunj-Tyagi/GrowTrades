@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 function Navbar() {
   return (
@@ -7,17 +8,19 @@ function Navbar() {
       className="navbar navbar-expand-lg bg-body-tertiary border-bottom sticky-top"
       style={{ backgroundColor: "#FFF" }}
     >
-      <div className="container p-2">
-        <Link className="navbar-brand" to="/">
-          <img
-            src="media/images/logo.svg"
-            alt="LOGO"
-            style={{ width: "30%" }}
-            className="ms-5"
-          />
-        </Link>
+      <div className="container p-2 d-flex justify-content-between align-items-center">
+        <span>
+          <Link className="navbar-brand" to="/">
+            <img
+              src="media/images/logo.svg"
+              alt="LOGO"
+              style={{ width: "30%" }}
+              className="ms-5"
+            />
+          </Link>
         <button
-          className="navbar-toggler"
+        style={{marginLeft:"14rem"}}
+          className="navbar-toggler "
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -27,10 +30,15 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        </span>
+        <div className="collapse navbar-collapse " id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/signup">
+              <Link
+                className="nav-link active"
+                aria-current="page"
+                to="/signup"
+              >
                 Signup
               </Link>
             </li>

@@ -1,0 +1,78 @@
+/* Container for the signup form */
+.signup-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style for the input fields */
+.signup-container input[type="email"],
+.signup-container input[type="text"],
+.signup-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+/* Style for the submit button */
+.signup-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #007bff;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Style for the submit button on hover */
+.signup-container input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the login link */
+.signup-container a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Style for the login link on hover */
+.signup-container link:hover {
+    text-decoration: underline;
+}
+
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5%;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+/* below code t center button and link */
+.signup-container .button-wrapper {
+    text-align: center; /* Center content inside the wrapper */
+}
+
+button {
+    display: inline-block; /* Ensure button respects the inline nature for centering */
+}

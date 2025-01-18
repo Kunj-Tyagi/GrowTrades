@@ -4,11 +4,11 @@ function Education() {
   return (
     <div className="container mt-5">
       <div className="row">
-        <div className="col-6">
+        <div className="col-lg-6 col-sm-12">
             <img src='media/images/education.svg' style={{width:"90%"}}></img>
         </div>
         <div className="col-1"></div>
-        <div className="col-5">
+        <div className="col-lg-5 col-sm-12">
           <h1 className="mb-3 mt-5">Free and open market education</h1>
           <p>
           Varsity, the largest online stock market education book in the world covering everything from the basics to advanced trading.

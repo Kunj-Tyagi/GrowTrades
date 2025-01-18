@@ -4,7 +4,7 @@ function Brokerage() {
   return (
     <div className="container">
       <div className="row p-5 mt-5 text-center border-top">
-        <div className="col-8 p-4 ">
+        <div className="col-lg-8 col-sm-12 p-4 ">
           <h3 className="fs-5">
             <a href="" style={{ textDecoration: "none" }}>
               Brokerage Calculator
@@ -35,7 +35,7 @@ function Brokerage() {
             </li>
           </ul>
         </div>
-        <div className="col-4 p-4">
+        <div className="col-lg-4 col-sm-12 p-4">
           <h3 className="fs-5">
             <a href="" style={{ textDecoration: "none" }}>
               List of charges
